@@ -1,7 +1,19 @@
 import * as flsFunctions from "./modules/functions.js";
-
-flsFunctions.isWebp();
-
+import * as navLightInit from "./modules/nav_light.js";
+// import * as navInit from "./modules/nav.js";
+// import * as navUpInit from "./modules/nav_up.js";
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-const swiper = new Swiper();
+
+document.addEventListener("DOMContentLoaded", function() {
+  
+  flsFunctions.isWebp();
+
+  const swiper = new Swiper();
+  
+  
+  
+  navLightInit.navLight();
+  // navInit.nav();
+  // navUpInit.navUp();
+});

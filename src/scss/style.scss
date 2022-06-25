@@ -1,18 +1,14 @@
+@import "templates/header";
+@import "templates/nav_light";
+// @import "templates/nav_up";
+// @import "templates/nav";
 @import "fonts";
 
 body {
-  background-color: #000;
+  // background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
   span {
     color: red;
   }
-  background: url('@img/cover.jpg') 0 0 no-repeat;
-}
-@media (max-width: 768px) {
-  span {
-    font-size: 20px;
-  }
-}@media (max-width: 768px) {
-  body {
-    background-color: green;
-  }
+  // background: url('@img/cover.jpg') 0 0 no-repeat;
 }
