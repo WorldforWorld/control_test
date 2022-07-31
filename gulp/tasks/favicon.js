@@ -36,7 +36,7 @@ export const favicon = () => {
         firefox: false,
         appleStartup: false
       },
-      path: "img/favicon/"
+      path: "aasets/img/favicon/"
     }))
     .pipe(app.gulp.dest(`${app.path.build.favicon}`))
     .pipe(filter(['favicon.ico', 'apple-touch-icon.png', 'manifest.json']))
